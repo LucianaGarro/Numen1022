@@ -1,0 +1,68 @@
+/* sintaxis: selector (etiqueta, class, id), propiedad(varias),valor(pueden ser de varios tipos) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../images/messi-red.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: blueviolet;
+    height: 100px;
+}
+li{
+    list-style-type:none;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 60px;
+    color:black;
+}
+
+/* propiedades sumatorias y propiedades que se reescriben */
+
+.segundoParrafo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color:blueviolet;
+    letter-spacing: 7px;
+}
+
+#primerParrafo{
+    word-spacing: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:red
+}
+h1{
+    color:green;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 100px;
+}
